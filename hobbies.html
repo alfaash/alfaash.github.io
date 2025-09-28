@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies - Ashutosh Tiwari</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #4A90E2;
+      color: white;
+      padding: 20px;
+      font-size: 1.8rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 15px 0;
+      font-size: 1.2rem;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 20px;
+      background: #4A90E2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background: #357ABD;
+    }
+  </style>
+</head>
+<body>
+  <header>Hobbies</header>
+  <div class="container">
+    <h1>Here are some of my hobbies,</h1>
+    <ul>
+      <li>Playing football</li>
+      <li>Participating in hackathons and building projects.</li>
+      <li>Competitive programming and solving problems on LeetCode.</li>
+      <li>Learning new technologies</li>
+    </ul>
+    <button onclick="navigateTo('index.html')">Home</button>
+    <button onclick="navigateTo('education.html')">Education</button>
+  </div>
+  <script>
+    function navigateTo(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
